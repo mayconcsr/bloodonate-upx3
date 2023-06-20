@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3A1C1C;
+}
+
+.mainScreen {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #F85555;
+    height: 70%;
+    width: 25%;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.Screen2 {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #F85555;
+    height: 70%;
+    width: 25%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    overflow-y: auto;
+}
+
+.Screen3 {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    background-color: #F85555;
+    height: 70%;
+    width: 25%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.Screen2 img {
+    height: auto;
+    width: 12rem;
+    margin-bottom: 15px;
+    padding-top: 52rem;
+}
+
+.logo {
+    height: auto;
+    width: 18rem;
+    margin-bottom: 30px;
+}
+
+.Screen3 h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+.Screen3 h5 {
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mainScreen h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+.mainScreen button {
+    border: none;
+    outline: none;
+    padding: 15px 50px 15px 50px;
+    color: white;
+    background-color: #292929;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .50s ease;
+    margin-bottom: 30px;
+}
+
+.Screen2 button {
+    border: none;
+    outline: none;
+    padding: 15px 50px 15px 50px;
+    color: white;
+    background-color: #292929;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .50s ease;
+    margin: 15px 0px 15px 0px;
+}
+
+.Screen2 button:hover {
+    transform: scale(1.1);
+}
+
+.mainScreen button:hover {
+    transform: scale(1.1);
+}
+
+.Screen2 h5 {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.mainScreen h5 {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input, select {
+    width: 90%;
+    margin: 10px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: #27272779;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+.hideon {
+    display: none;
+  }
+  
+.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.end {
+    background: #6F1E1E;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.end h3 {
+    font-weight: 500;
+    cursor: default;
+}
+
+l {
+    font-family: 'Pacifico', cursive;
+}

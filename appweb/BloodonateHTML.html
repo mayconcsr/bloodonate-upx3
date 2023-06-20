@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloodonate</title>
+
+    <!---css--->
+    <link rel="stylesheet" href="BloodonateCSS.css">
+
+    <!---js--->
+    <script src="BloodonateJS.js"></script>
+
+    <!---google fonts--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainScreen">
+        <img src="Group 3 (8).png" class="logo" alt="Logotipo Bloodonate">
+        <h2>Bem-vindo(a) a melhor solução para doadores de sangue do Brasil!</h2>
+        <button onclick="abrirTelaCadastro()">REGISTRE-SE</button>
+        <h5 href="">Preciso atualizar meus dados</h5>
+    </div>
+
+
+     <div class="Screen2">
+        <img src="Group 3 (8).png" alt="Logotipo Bloodonate">
+        <form>
+            <input type="text" placeholder="Nome Completo" id="nome" required>
+            <input type="date" placeholder="Data de Nascimento" required>
+            <select required>
+                <option value="">Gênero</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+            <input type="number" placeholder="Altura (cm)" required>
+            <input type="number" placeholder="Peso (kg)" required>
+            <select required>
+                <option value="">Tipo Sanguíneo</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+              </select>
+           <input type="email" placeholder="E-mail" required>
+           <input type="tel" placeholder="Número de Contato" required>
+           <input type="text" placeholder="CPF" required>
+           <input type="text" placeholder="Rua" required>
+           <input type="text" placeholder="Número" required>
+           <input type="text" placeholder="Complemento">
+           <input type="text" placeholder="Bairro" required>
+           <input type="text" placeholder="Cidade" required>
+           <input type="text" placeholder="Estado" required>
+           <input type="text" placeholder="CEP" required>
+        </form>
+     <button onclick="abrirTelaFinal()" type="submit">ENVIAR</button>
+     <h5 onclick="voltarParaMainScreen()">VOLTAR</h5>
+    </div>
+
+
+    <div class="Screen3">
+        <div class="end">
+            <img src="Group 3 (8).png" class="logo" alt="Logotipo Bloodonate">
+            <h3 id="mensagem"></h3>
+            <br>
+            <h3>Nós da equipe <l>Bloodonate</l> e todos os hospitais envolvidos somos extramamente gratos por pessoas como você participar desse projeto conosco.</h3>
+            <br>
+            <h3>Nos acompanhe nas redes sociais e saiba mais sobre nós.</h3>
+        </div>
+        <h5 onclick="closeScreen3()">FINALIZAR</h5>
+    </div>
+
+</body>
+</html>
