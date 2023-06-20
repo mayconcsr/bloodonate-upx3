@@ -1,5 +1,5 @@
 <h1>Bloodonate :diamonds:	</h1> 
-<h3>A melhor solução para doadores de sangue do Brasil - Projeto Usina de Projetos 3 (UPx3)</h3>
+<h3>A melhor solução para doadores de sangue do Brasil - Usina de Projetos 3 (UPx3)</h3>
 <h3></h3>
 
 
